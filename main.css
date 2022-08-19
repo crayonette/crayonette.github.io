@@ -57,9 +57,9 @@ h2 {
   object-fit: cover;
 }
 
-  /* Эффект наведения на картинку */
+  /* Hover effect */
 .photo:hover {
-  border: 3px solid #CE5374;
+  border: 3px solid #66edc0;
   
 }
 
