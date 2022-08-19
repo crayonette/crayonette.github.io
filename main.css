@@ -57,11 +57,7 @@ h2 {
   object-fit: cover;
 }
 
-  /* Hover effect */
-.photo:hover {
-  border: 3px solid #66edc0;
-  
-}
+ 
 
 /*Свойства кнопки*/
 button {
