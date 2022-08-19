@@ -1,0 +1,78 @@
+
+body {
+  font-family: Proxima Nova, sans-serif;
+  background-color: white;
+
+}
+
+.container {
+  padding: 0 40px;
+  margin-left: 80px;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 1.2em;
+  position: relative;
+  color:  black;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color: pink;
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 300px;
+}
+
+h1 {
+  font-size: 2em;
+  color: black;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+  color: black;
+
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #CE5374;
+  
+}
+
+/*Свойства кнопки*/
+button {
+    margin-top: 1.4em;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    font-weight:  bold;
+
+}
